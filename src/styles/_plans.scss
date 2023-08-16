@@ -3,6 +3,10 @@
 .plans {
     padding: 5.6vw;
 
+    .button {
+        margin-top: 24px;
+    }
+
     h2 {
         text-align: center;
     }
@@ -11,6 +15,10 @@
         display: flex;
         justify-content: space-around;
         margin-top: 50px;
+
+        @media (max-width: 768px) {
+            display: block;
+        }
         
         &__item {
             text-align: center;
